@@ -1,0 +1,24 @@
+    body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: #000;
+}
+.neon-btn {
+font-size: 20px;
+padding: 15px 40px;
+border: 2px solid #0ff;
+color: #0ff;
+text-transform: uppercase;
+background: transparent;
+cursor: pointer;
+position: relative;
+transition: 0.3s ease-in-out;
+box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+.neon-btn:hover {
+color: #000;
+background: #0ff;
+box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+}
